@@ -1,30 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casas Orientais</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../Projeto/style.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Arquitetura Oriental</h2>
+        <p>
+            A arquitetura oriental se destaca por integrar as construções à natureza, valorizar materiais simples e flexibilidade de espaços, e usar a simplicidade para refletir harmonia e funcionalidade.
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+
+            <article class="about-img">
+                <img src="../Imagens e Textos/Imagens/Imagem1.jpeg" alt="" class="img1 active" data-id="history" />
+                <img src="../Imagens e Textos/Imagens/Imagem2.jpeg" alt="" class="img2" data-id="vision" />
+                <img src="../Imagens e Textos/Imagens/Imagem3.jpeg" alt="" class="img3" data-id="goals" />
+            </article>
+
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">Sobre</button>
+            <button class="tab-btn" data-id="vision">Japão</button>
+            <button class="tab-btn" data-id="goals">China</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>Historia</h4>
+              <p>
+                O design de uma casa oriental se baseia na harmonia com a natureza, utilizando materiais naturais como madeira e bambu para criar uma atmosfera aconchegante. A estrutura é pensada para ter um fluxo contínuo, com portas de correr flexíveis que transformam os ambientes, garantindo uma transição suave e constante conexão com a natureza através de janelas amplas e jardins internos. Esse estilo adota o minimalismo, valorizando a funcionalidade e a simplicidade, e celebra a beleza imperfeita, aceitando a pátina e as marcas do tempo como elementos autênticos da construção.
+              </p>
+            </div>
+
+            <div class="content" id="vision">
+              <h4>Japão</h4>
+              <p>
+                As casas orientais tradicionais, especialmente as japonesas chamadas minka ou machiya, tinham uma característica marcante: muitas eram construídas sem o uso de pregos, utilizando técnicas de encaixe de madeira como kigoroshi e kumiki, que funcionavam como um quebra-cabeça e garantiam grande resistência a terremotos, comuns no Japão. Além disso, os tatames, feitos de palha de arroz prensada, não serviam apenas como piso confortável, mas também como medida padrão para os cômodos, já que o tamanho de um quarto era definido pela quantidade de tatames que nele cabiam.
+
+              </p>
+
+            </div>
+            <div class="content" id="goals">
+              <h4>China</h4>
+              <p>
+                Uma informação interessante sobre as casas chinesas tradicionais, conhecidas como siheyuan, é que sua estrutura seguia princípios do feng shui, sempre organizada em torno de um pátio central retangular. Esse pátio não era apenas um espaço de convivência, mas também simbolizava harmonia e equilíbrio, permitindo a entrada de luz e ventilação natural. Além disso, a posição das casas dentro do complexo seguia regras hierárquicas: o edifício ao norte, voltado para o sul, era reservado aos membros mais importantes da família, enquanto os demais ficavam distribuídos lateralmente conforme sua posição na hierarquia familiar.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 <section>
 <div class="title">
-<h1>Casas Orientais</h1>
-<p>Uma casa oriental, em sua essência, é mais do que apenas uma construção; é uma filosofia de vida materializada.</p>
-</div>
-<div class="center">
-<article>
-<img>
-</article>
-<article>
-<div class="btn-container">
-<button class="btn">Anterior</button>
-
-</div>
-</article>
-
+<h4>Musicas </h4>
+<p>
+    A música oriental prioriza a melodia e o timbre em vez da harmonia, usando escalas únicas e instrumentos tradicionais para expressar emoções profundas e contar histórias.
+</p>
 </div>
 </section>
-</body>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>
